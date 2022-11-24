@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="page__section">
+                <div class="page__container">
+                    <div class="page__forms forms">
+                        <div class="forms__picture">
+                            <img src="img/illustration.svg" alt="illustration">
+                        </div>
+                        <div class="forms__block block-forms">
+                            <div class="block-forms__label label">
+                                <h6>Any questions?</h6>
+                                <h1>Drop us a line</h1>
+                            </div>
+                            <div class="block-forms__form-wrapper">
+                                <form class="block-forms__form form" action="#" method="GET"
+                                    enctype="multipart/form-data">
+                                    <div class="form__line-together">
+                                        <div class="form__line">
+                                            <label for="first-name-1" class="form__label">First Name*</label>
+                                            <input class="form__input" id="first-name-1" type="text" name="first-name"
+                                                placeholder="Your first name" required>
+                                        </div>
+                                        <div class="form__line">
+                                            <label for="last-name-1" class="form__label">Last Name*</label>
+                                            <input class="form__input" id="last-name-1" type="text" name="last-name"
+                                                placeholder="Your last name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form__line-together">
+                                        <div class="form__line">
+                                            <label for="email-1" class="form__label">Email*</label>
+                                            <input class="form__input" id="email-1" type="email" name="email"
+                                                placeholder="Your working email" required>
+                                        </div>
+                                        <div class="form__line">
+                                            <label for="tel-1" class="form__label">Phone</label>
+                                            <input class="form__input" id="tel-1" type="tel" name="telephone"
+                                                placeholder="Your phone number">
+                                        </div>
+                                    </div>
+
+                                    <div class="form__line-together form__line-together_textarea">
+                                        <label for="textarea-1" class="form__label">Message*</label>
+                                        <textarea class="form__textarea" name="message" id="textarea-1"
+                                            placeholder="Your message" required></textarea>
+                                    </div>
+
+                                    <div class="form__line-together form__line-together_radio">
+                                        <div class="form__title">Choose your gender
+                                        </div>
+                                        <div class="form__radio radio">
+                                            <input class="radio__input" type="radio" name="gender" checked value="male"
+                                                id="gender-male">
+                                            <label class="radio__label" for="gender-male"><span
+                                                    class="radio__text">Male</span></label>
+                                        </div>
+                                        <div class="form__radio radio">
+                                            <input class="radio__input" type="radio" name="gender" value="female"
+                                                id="gender-female">
+                                            <label class="radio__label" for="gender-female"><span
+                                                    class="radio__text">Female</span></label>
+                                        </div>
+                                        <div class="form__radio radio">
+                                            <input class="radio__input" type="radio" name="gender" value="unknown"
+                                                id="gender-unknown">
+                                            <label class="radio__label" for="gender-unknown"><span
+                                                    class="radio__text">Unknown</span></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form__line-together form__line-together_checkbox">
+                                        <div class="form__line">
+                                            <div class="form__checkbox checkbox">
+                                                <input class="checkbox__input" id="checkbox-1" checked required
+                                                    type="checkbox">
+                                                <label for="checkbox-1" class="checkbox__label"> <span
+                                                        class="checkbox__text">I agree to
+                                                        receive communications from Createx Online School</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="form__line">
+                                            <button type="submit" class="form__button button"><span>Send
+                                                    message</span></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+
+</html>
